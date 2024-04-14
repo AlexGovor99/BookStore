@@ -1,6 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStore", "BookStore\BookStore.csproj", "{E660C30B-E7F6-4573-A5B5-8FD28A3D2D51}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStore.API", "BookStore.API\BookStore.API.csproj", "{E660C30B-E7F6-4573-A5B5-8FD28A3D2D51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStore.Core", "BookStore.Core\BookStore.Core.csproj", "{7D36BD65-0089-47E6-A545-09F43ED46A4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStore.DataAccess", "BookStore.DataAccess\BookStore.DataAccess.csproj", "{AF19B75C-0342-4056-A762-A849D8D131E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9609EA05-5E72-4DFA-B1B3-065FCF2E88FE}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStore.Application", "BookStore.Application\BookStore.Application.csproj", "{AF8668B2-352D-4DA2-B678-689AA52AB535}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +23,17 @@ Global
 		{E660C30B-E7F6-4573-A5B5-8FD28A3D2D51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E660C30B-E7F6-4573-A5B5-8FD28A3D2D51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E660C30B-E7F6-4573-A5B5-8FD28A3D2D51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D36BD65-0089-47E6-A545-09F43ED46A4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D36BD65-0089-47E6-A545-09F43ED46A4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D36BD65-0089-47E6-A545-09F43ED46A4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D36BD65-0089-47E6-A545-09F43ED46A4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF19B75C-0342-4056-A762-A849D8D131E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF19B75C-0342-4056-A762-A849D8D131E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF19B75C-0342-4056-A762-A849D8D131E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF19B75C-0342-4056-A762-A849D8D131E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF8668B2-352D-4DA2-B678-689AA52AB535}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF8668B2-352D-4DA2-B678-689AA52AB535}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF8668B2-352D-4DA2-B678-689AA52AB535}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF8668B2-352D-4DA2-B678-689AA52AB535}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
