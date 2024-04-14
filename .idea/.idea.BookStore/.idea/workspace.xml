@@ -9,37 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38be2522-a07c-491d-9375-58f7f583013b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/config/applicationhost.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookStore.API/Contracts/BooksRequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookStore.API/Contracts/BooksResponse.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookStore.API/Controllers/BooksController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookStore.API/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookStore.Application/BookStore.Application.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookStore.Application/Services/BooksService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookStore.Core/Abstractions/IBooksRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookStore.Core/Abstractions/IBooksService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookStore.Core/BookStore.Core.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookStore.Core/Models/Book.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookStore.DataAccess/BookStore.DataAccess.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookStore.DataAccess/BookStoreDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookStore.DataAccess/Configurations/BookConfiguration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookStore.DataAccess/Entities/BookEntity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookStore.DataAccess/Migrations/20240414181809_init.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookStore.DataAccess/Migrations/20240414181809_init.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookStore.DataAccess/Migrations/BookStoreDbContextModelSnapshot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookStore.DataAccess/Repositories/BooksRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BookStore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BookStore/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookStore.sln" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookStore/BookStore.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.API/BookStore.API.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookStore/BookStore.http" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.API/BookStore.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookStore/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.API/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookStore/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.API/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookStore/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.API/appsettings.Development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookStore/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.API/appsettings.json" afterDir="false" />
-    </list>
+    <list default="true" id="38be2522-a07c-491d-9375-58f7f583013b" name="Changes" comment="service ready" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -185,7 +155,7 @@
       <option name="presentableId" value="Default" />
       <updated>1713007759738</updated>
       <workItem from="1713007760781" duration="11273000" />
-      <workItem from="1713121323766" duration="296000" />
+      <workItem from="1713121323766" duration="773000" />
     </task>
     <task id="LOCAL-00001" summary="create template">
       <option name="closed" value="true" />
@@ -195,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713007895329</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="service ready">
+      <option name="closed" value="true" />
+      <created>1713121812616</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713121812616</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,6 +185,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="create template" />
-    <option name="LAST_COMMIT_MESSAGE" value="create template" />
+    <MESSAGE value="service ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="service ready" />
   </component>
 </project>
